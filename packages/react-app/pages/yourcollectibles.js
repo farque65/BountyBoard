@@ -84,9 +84,7 @@ function yourcollectibles({ web3 }) {
                     </div>
                   }
                 >
-                  <div>
-                    <img src={item.image} alt={item.name} style={{ maxWidth: 150 }} />
-                  </div>
+                  <div>{/* <img src={item.image} alt={item.name} style={{ maxWidth: 150 }} /> */}</div>
                   <div>{item.description}</div>
                 </Card>
 
