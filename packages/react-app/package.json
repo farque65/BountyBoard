@@ -45,6 +45,7 @@
     "isomorphic-fetch": "^3.0.0",
     "lodash": "^4.17.21",
     "next": "^11.1.2",
+    "next-optimized-images": "^2.6.2",
     "next-transpile-modules": "^8.0.0",
     "node-watch": "^0.7.1",
     "qrcode.react": "^1.0.0",
@@ -70,6 +71,7 @@
     "chalk": "^4.1.0",
     "eslint": "^7.5.0",
     "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-next": "^11.1.2",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-import": "^2.23.4",
@@ -93,6 +95,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev",
     "next:build": "next build",

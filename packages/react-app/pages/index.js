@@ -5,9 +5,6 @@ import { useContractReader } from "eth-hooks";
 import { useEventListener } from "eth-hooks/events";
 import { Web3Consumer } from "../helpers/Web3Context";
 import Head from "next/head";
-import Icon from "../assets/icon.svg";
-import Gitcoin from "../assets/gitcoin.svg";
-import Github from "../assets/github.svg";
 import { Collapse } from "antd";
 import useSWR from "swr";
 
