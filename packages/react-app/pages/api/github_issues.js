@@ -2,7 +2,7 @@ const { Octokit } = require("@octokit/rest");
 
 export default async (req, res) => {
   const octokit = new Octokit({
-    auth: process.env.github_token,
+    auth: process.env.NEXT_GITHUB_TOKEN,
   });
 
   const apiURLBeginning = "https://api.github.com/repos/";
